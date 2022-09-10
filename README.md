@@ -3,10 +3,14 @@ Budding Coders Geolocator Project
 
 
 Members:-
-Milan Dey
- Prapti Mukherjee
- Binit Kumar Sen 
- Debayan Kar.
+           
+           Milan Dey
+ 
+           Prapti Mukherjee
+ 
+           Binit Kumar Sen 
+ 
+           Debayan Kar.
 
 This project is all about Geolocator which can show location of any place with the corresponding IP Address.
 It also comes with most features of the Google maps so that the user finds it easy to use.
