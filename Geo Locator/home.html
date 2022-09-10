@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Locator</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+
+<body style="display: grid;background: url(images/bg2.jpeg) no-repeat center center fixed;
+background-size: cover;
+z-index: -50;">
+    <nav>
+        <a href="index.html"> <img src="Home.png" alt="Home" id="icon"> </a>
+        <a href="about.html"><button class="btn"> About Us</button></a>
+        <a href="contact.html"><button class="btn"> Contact Us </button></a>
+        <a href="index (1).html" class="join"><button class="btn"> Log in </button></a>
+        <a href="index (1).html" class="join"><button class="btn">Sign up</button></a>
+    </nav>
+    <button class="center" onclick="getLocation()" style="margin: 5px;">Know your location</button>
+    <p id="lc"></p>
+    <input class="center" id="inputNumber" type="text" name="number" />
+    <div class="api">
+    <button class="center" onclick="locationID()">Location of the IP address</button>
+</div>
+    <div class="details">
+        <table>
+            <tr>
+              <td><strong>Country</strong></td>
+              <td id="user1"></td>
+            </tr>
+            <tr>
+                <td><strong>City</strong></td>
+              <td id="user2"></td>
+            </tr>
+            <tr>
+                <td><strong>Lattitude</strong></td>
+              <td id="user3"></td>
+            </tr>
+            <tr>
+                <td><strong>Longitude</strong></td>
+              <td id="user4"></td>
+          </table>
+    </div>
+    <p class="center">To get details map view click on the button below</p>
+    <a href="./geocoding.html" class="center">
+        <button >Map View</button>
+    </a>
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>

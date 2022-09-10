@@ -1,0 +1,121 @@
+header {
+    background-color: rgb(90, 250, 199);
+}
+
+#logo {
+    height: 10vh;
+    padding: 1em;
+}
+
+#icon {
+    height: 3vh;
+    display: inline-block;
+    margin: auto;
+}
+
+.logon {
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3vh;
+    position: relative 2px;
+}
+
+#log {
+    position: relative;
+    bottom: 7vh;
+    text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: url(campaign-creators-774sCXD0dDU-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -5;
+}
+
+nav {
+    background-color: lavender;
+    position: sticky;
+    height: 5vh;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 1vh;
+}
+
+nav a:hover {
+    color: aliceblue;
+    background-color: rgb(148, 148, 148);
+    text-decoration: underline;
+    border-radius: 1px;
+}
+
+body span {
+    text-align: center;
+}
+
+#find {
+    margin: 40em;
+}
+
+.join {
+    float: right;
+}
+
+#lead {
+    height: 40vh;
+    margin: 5vh;
+}
+
+.btn {
+    border: 2px solid greenyellow;
+    border-radius: 1vh;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+}
+
+#mem {
+    width: 80vw;
+    margin-top: 1vh;
+    margin-left: 15vh;
+}
+
+.com {
+    font-variant: small-caps;
+    color: antiquewhite;
+    background-color: rgb(141, 137, 137);
+    border-radius: 2px;
+    text-align: center;
+}
+
+.aa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    color: black;
+    cursor: pointer;
+    /* outline: none;  */
+    margin: 12px;
+    padding: 12px;
+    border: 2px solid whitesmoke;
+    /* border: none; */
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    /* font-size: 18px; */
+    background: none;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    opacity: 2;
+    color: white;
+    background-color: black;
+}
